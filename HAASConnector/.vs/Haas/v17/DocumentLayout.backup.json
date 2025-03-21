@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sukanta\\Personal\\HAASConnector\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\adapterserver.service||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\adapterserver.service||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\serviceconfiguration\\adaptersettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\serviceconfiguration\\adaptersettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\services\\adapterruntimeservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\services\\adapterruntimeservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\controllers\\adaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\controllers\\adaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|c:\\sukanta\\personal\\haasconnector\\adapterserver\\fuso.adapterservice\\backend\\apivalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A1321D-CC1C-4BD6-A30E-0F258D849A1D}|AdapterServer\\Fuso.AdapterService\\HaasConnector.csproj|solutionrelative:adapterserver\\fuso.adapterservice\\backend\\apivalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\MiddleWare\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\MiddleWare\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\MiddleWare\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\MiddleWare\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:58:59.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\AppSettings.cs",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\AppSettings.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\AppSettings.cs",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:58:55.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Program.cs",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\Program.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Program.cs",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:58:10.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdapterServer.service",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\AdapterServer.service",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\AdapterServer.service",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\AdapterServer.service",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\AdapterServer.service",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-14T16:58:04.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\appsettings.json",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\appsettings.json",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\appsettings.json",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T16:57:42.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "adaptersettings.json",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\ServiceConfiguration\\adaptersettings.json",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\ServiceConfiguration\\adaptersettings.json",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\ServiceConfiguration\\adaptersettings.json",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\ServiceConfiguration\\adaptersettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T16:57:35.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Startup.cs",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\Startup.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Startup.cs",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:53:12.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdapterRuntimeServiceManager.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Services\\AdapterRuntimeServiceManager.cs",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\Services\\AdapterRuntimeServiceManager.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Services\\AdapterRuntimeServiceManager.cs",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\Services\\AdapterRuntimeServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:54:33.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdapterController.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Controllers\\AdapterController.cs",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\Controllers\\AdapterController.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Controllers\\AdapterController.cs",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\Controllers\\AdapterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:54:20.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiValidator.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Backend\\ApiValidator.cs",
+              "RelativeDocumentMoniker": "AdapterServer\\Fuso.AdapterService\\Backend\\ApiValidator.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\AdapterServer\\Fuso.AdapterService\\Backend\\ApiValidator.cs",
+              "RelativeToolTip": "AdapterServer\\Fuso.AdapterService\\Backend\\ApiValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:54:27.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
