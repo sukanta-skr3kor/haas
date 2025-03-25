@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Sukanta\\Personal\\HAASConnector\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8E66E0-00E5-4C57-86E1-6DCC66A45227}|HaasConnectorAPIs.csproj|c:\\sukanta\\personal\\haasconnector\\models\\haassettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F8E66E0-00E5-4C57-86E1-6DCC66A45227}|HaasConnectorAPIs.csproj|solutionrelative:models\\haassettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8E66E0-00E5-4C57-86E1-6DCC66A45227}|HaasConnectorAPIs.csproj|c:\\sukanta\\personal\\haasconnector\\haassettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F8E66E0-00E5-4C57-86E1-6DCC66A45227}|HaasConnectorAPIs.csproj|solutionrelative:haassettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HaasSettings.cs",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\Models\\HaasSettings.cs",
+              "RelativeDocumentMoniker": "Models\\HaasSettings.cs",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\Models\\HaasSettings.cs",
+              "RelativeToolTip": "Models\\HaasSettings.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T05:15:40.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HaasSettings.json",
+              "DocumentMoniker": "C:\\Sukanta\\Personal\\HAASConnector\\HaasSettings.json",
+              "RelativeDocumentMoniker": "HaasSettings.json",
+              "ToolTip": "C:\\Sukanta\\Personal\\HAASConnector\\HaasSettings.json",
+              "RelativeToolTip": "HaasSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T05:15:26.574Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"

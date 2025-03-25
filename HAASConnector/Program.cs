@@ -1,10 +1,19 @@
-﻿namespace HaasConnectorService;
+﻿using HaasConnectorAPIService.Communication;
+
+namespace HaasConnectorService;
 
 /// <summary>
 /// Start of program
 /// </summary>
 public class Program
 {
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+           Host.CreateDefaultBuilder(args)
+               .ConfigureWebHostDefaults(webBuilder =>
+               {
+                   webBuilder.UseStartup<Startup>();
+               });
+
     /// <summary>
     /// Main entry point
     /// </summary>
@@ -13,15 +22,17 @@ public class Program
     {
         try
         {
+            Directory.SetCurrentDirectory(Reflections.GetEntryAssemblyLocation().FullName);
+
             DirectoryInfo logDirectory = Reflections.GetRootRelativeDir(Directory.GetCurrentDirectory(), "Logs");
             string logfilepath = Path.Combine(logDirectory.FullName, "haas.log");
 
-            Log.Logger = new LoggerConfiguration().WriteTo.GrafanaLoki("http://localhost:3100", labels: new[]
-                                {
-                                  new LokiLabel { Key = "HaasConnectorService", Value = "HaasConnectorServiceApi" }
-                                }).CreateLogger();
-
-            Log.Logger.Information("Haas App starting");
+            //Log.Logger = new LoggerConfiguration().WriteTo.GrafanaLoki("http://localhost:3100", labels: new[]
+            //                    {
+            //                      new LokiLabel { Key = "HaasConnector", Value = "HaasConnector" }
+            //                    }).Enrich.FromLogContext()
+            //    .Enrich.WithExceptionDetails()
+            //    .WriteTo.Console().CreateLogger();
 
             Log.Logger = new LoggerConfiguration()
                 .Enrich.FromLogContext()
@@ -30,13 +41,24 @@ public class Program
                 .WriteTo.File(logfilepath, rollingInterval: RollingInterval.Day)
                 .CreateLogger();
 
-            CreateHostBuilder(args).Build().Run();
+            Log.Logger.Information("Haas Connector App starting");
 
-            Log.Logger.Information("Haas App started");
+            IWebHost host = CreateWebHostBuilder(args).Build();
+
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))//If Windows OS 
+            {
+                host.RunAsService(); 
+            }
+            else//All other OS
+            {
+                host.Run();
+            }
+
+            Log.Logger.Information("Haas Connector App started");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Application startup failed: {ex.Message}");
+            Log.Logger.Error($"Application startup failed: {ex.Message}");
         }
         finally
         {
@@ -49,20 +71,31 @@ public class Program
     /// </summary>
     /// <param name="args"></param>
     /// <returns></returns>
-    private static IHostBuilder CreateHostBuilder(string[] args) =>
-        Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.ConfigureKestrel(options =>
-            {
-                options.AddServerHeader = false;
-            });
-                //Configuration load
-                IConfigurationRoot config = new ConfigurationBuilder()
+    private static IWebHostBuilder CreateWebHostBuilder(string[] args)
+    {
+        IConfigurationRoot configuration = new ConfigurationBuilder()
                        .SetBasePath(Reflections.GetCurrentAssemblyLocation().FullName)
                        .AddJsonFile("HaasSettings.json", optional: false, reloadOnChange: true)
-                       .Build();
-                webBuilder.UseStartup<Startup>();
-                webBuilder.UseConfiguration(config);
-            }).UseSerilog();
+                .Build();
+
+        IConfigurationSection appSettingsSection = configuration.GetSection("HaasSettings");
+        HaasSettings HaasSettings = appSettingsSection.Get<HaasSettings>();
+
+        return WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .UseConfiguration(configuration)
+                .UseKestrel(options =>
+                {
+                    options.AddServerHeader = false;
+
+                    options.Limits.MaxRequestBodySize = null;
+
+                    options.Listen(IPAddress.Any, HaasSettings.HttpPort);
+
+                }).ConfigureLogging(logging =>
+                {
+                    logging.ClearProviders();
+                    logging.SetMinimumLevel(LogLevel.Information);
+                }).UseUrls();
+    }
 }

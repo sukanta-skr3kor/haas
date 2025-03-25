@@ -56,7 +56,7 @@
                     }
                 }
                 // Return the trimmed values
-                return values.Select(v => v.Trim()).ToArray();
+                return values.Select(x => x.Trim()).ToArray();
             }
             catch (TimeoutException ex)
             {

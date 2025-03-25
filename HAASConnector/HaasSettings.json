@@ -1,18 +1,17 @@
 {
   "HaasSettings": {
 
-    "CollectionIntervalMs": 10000,
+    "HttpPort": 19500,
 
     "Logging": {
-      "Enabled": true,
-      "EnableLogMonitoring": true
+      "Enabled": true
     },
 
     "SerialPort": {
       "Name": "COM1",
-      "Baudrate": 9600,
+      "Baudrate": 38400,
       "DataBits": 7,
-      "Parity": "None",
+      "Parity": "Even",
       "StopBits": 1,
       "ReadTimeout": 2000,
       "WriteTimeout": 2000

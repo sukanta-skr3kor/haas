@@ -54,7 +54,7 @@ public class HaasService : BackgroundService
             // _db.HaasData.Add(data);
             //  await _db.SaveChangesAsync();
 
-            await Task.Delay(_haasSettings.CollectionIntervalMs);
+            await Task.Delay(5000);//_haasSettings.CollectionIntervalMs
         }
     }
 }

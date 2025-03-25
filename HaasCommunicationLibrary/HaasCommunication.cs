@@ -18,7 +18,7 @@
         /// <summary>
         /// Defines the NO_DATA
         /// </summary>
-        private const string NO_DATA = "NA";
+        private const string NO_DATA = "NO_DATA";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="HaasCommunication"/> class.
@@ -36,7 +36,7 @@
                 StopBits = StopBits.One,
                 DataBits = dataBits,
                 ReadTimeout = readTimeout,
-                WriteTimeout = 500
+                WriteTimeout = 1000
             };
         }
 
