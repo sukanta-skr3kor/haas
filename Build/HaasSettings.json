@@ -1,0 +1,20 @@
+{
+  "HaasSettings": {
+
+    "HttpPort": 19500,
+
+    "Logging": {
+      "Enabled": true
+    },
+
+    "SerialPort": {
+      "Name": "COM1",
+      "Baudrate": 38400,
+      "DataBits": 7,
+      "Parity": "Even",
+      "StopBits": 1,
+      "ReadTimeout": 2000,
+      "WriteTimeout": 2000
+    }
+  }
+}
